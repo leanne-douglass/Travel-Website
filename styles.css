@@ -130,12 +130,12 @@ img {
 }
 
 /*========== INLANDS ==========*/
-.islands {
+.discover {
   height: 100vh;
   position: relative;
 }
 
-.islands__bg {
+.discover__bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -145,7 +145,7 @@ img {
   object-position: center;
 }
 
-.islands__container {
+.discover__container {
   position: relative;
   height: 100%;
   display: grid;
@@ -153,24 +153,24 @@ img {
   align-content: center;
 }
 
-.islands__subtitle, .islands__title, .islands__description {
+.discover__subtitle, .discover__title, .discover__description {
   color: var(--body-color);
 }
 
-.islands__subtitle {
+.discover__subtitle {
   font-size: var(--big-font-size);
   font-weight: var(--font-medium);
 }
 
-.islands__title {
+.discover__title {
   font-size: var(--biggest-font-size);
 }
 
-.islands__description {
+.discover__description {
   margin-bottom: 1rem;
 }
 
-.islands__button {
+.discover__button {
   display: inline-flex;
   align-items: center;
   padding: 1rem 1.5rem;
@@ -180,22 +180,22 @@ img {
   font-weight: var(--font-medium);
 }
 
-.islands__button:hover {
+.discover__button:hover {
   background-color: var(--first-color-lighter);
 }
 
-.islands__button-icon {
+.discover__button-icon {
   font-size: 1.5rem;
   margin-left: .5rem;
 }
 
-.islands__video {
+.discover__video {
   display: flex;
   align-items: flex-end;
   padding-bottom: .75rem;
 }
 
-.islands__video-content {
+.discover__video-content {
   display: inline-flex;
   padding: .15rem;
   background-color: var(--body-color);
@@ -203,12 +203,12 @@ img {
   cursor: pointer;
 }
 
-.islands__video-icon {
+.discover__video-icon {
   font-size: 1.8rem;
   color: var(--first-color);
 }
 
-.islands__popup {
+.discover__popup {
   display: none;
   position: absolute;
   left: 50%;
@@ -219,7 +219,7 @@ img {
   border-radius: 1rem;
 }
 
-.islands__popup-close {
+.discover__popup-close {
   position: absolute;
   top: -.75rem;
   right: -.75rem;
@@ -279,7 +279,7 @@ img {
   .controls__container {
     column-gap: .25rem;
   }
-  .islands__popup-video {
+  .discover__popup-video {
     width: 230px;
     height: 100px;
   }
@@ -302,26 +302,26 @@ img {
   .nav__toggle {
     display: none;
   }
-  .islands__container {
+  .discover__container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .islands__description {
+  .discover__description {
     padding-right: 5rem;
     margin-bottom: 2rem;
   }
-  .islands__video {
+  .discover__video {
     justify-content: center;
     align-items: center;
     padding: 0;
   }
-  .islands__video-icon {
+  .discover__video-icon {
     font-size: 3rem;
   }
-  .islands__popup-video {
+  .discover__popup-video {
     width: 500px;
     height: 250px;
   }
-  .islands__popup-close {
+  .discover__popup-close {
     font-size: 1.5rem;
   }
   .controls {
@@ -347,14 +347,14 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  .islands__description {
+  .discover__description {
     padding-right: 11rem;
   }
 }
 
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
-  .islands {
+  .discover {
     height: 640px;
   }
 }
